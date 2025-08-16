@@ -18,6 +18,7 @@ const Hero = () => {
     return () =>{
     window.removeEventListener('resize',handlevideoSrcset);
     }
+    
   } , [] )
   useGSAP( () => {
     gsap.to('#hero',{ opacity : 1 , delay:2})
